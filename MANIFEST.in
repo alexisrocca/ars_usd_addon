@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ars_usd_addon *.css
+recursive-include ars_usd_addon *.csv
+recursive-include ars_usd_addon *.html
+recursive-include ars_usd_addon *.ico
+recursive-include ars_usd_addon *.js
+recursive-include ars_usd_addon *.json
+recursive-include ars_usd_addon *.md
+recursive-include ars_usd_addon *.png
+recursive-include ars_usd_addon *.py
+recursive-include ars_usd_addon *.svg
+recursive-include ars_usd_addon *.txt
+recursive-exclude ars_usd_addon *.pyc
