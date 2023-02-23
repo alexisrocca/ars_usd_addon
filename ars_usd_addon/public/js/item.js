@@ -1,18 +1,7 @@
+fetch('https://www.dolarsi.com/api/api.php?type=dolar').then(response => response.json()).then(data => dolar_price = data[0].casa.compra);
+
 frappe.ui.form.on("Item", {
     refresh(frm) {
-        
+        // frappe.msgprint(dolar_price);
     }
 })
-
-frappe.tour['Item'] = [
-	{
-		fieldname: "price_ars",
-		title: "Price ARS",
-		description: __("Price ARS")
-	},
-	{
-		fieldname: "price_usd",
-		title: "Price USD",
-		description: __("Price USD")
-	}
-];
