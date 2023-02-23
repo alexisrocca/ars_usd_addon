@@ -3,6 +3,7 @@ frappe.ui.form.on("Item", {
         
     }
 })
+
 frappe.tour['Item'] = [
 	{
 		fieldname: "price_ars",
