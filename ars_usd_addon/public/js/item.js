@@ -2,6 +2,6 @@ fetch('https://www.dolarsi.com/api/api.php?type=dolar').then(response => respons
 
 frappe.ui.form.on("Item", {
     refresh(frm) {
-        // frappe.msgprint(dolar_price);
+        
     }
 })
